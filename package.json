@@ -1,0 +1,34 @@
+{
+  "name": "ap-node-bin",
+  "version": "0.0.0-semantically-released",
+  "description": "node bin utility",
+  "main": "./bin/cli.js",
+  "type": "commonjs",
+  "scripts": {
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "bin": {
+    "ap-node-bin": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanp30/ap-node-bin.git"
+  },
+  "keywords": [
+    "node",
+    "bin",
+    "utility"
+  ],
+  "author": "Aman Pareek (https://amanpareek.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amanp30/ap-node-bin/issues"
+  },
+  "homepage": "https://github.com/Amanp30/ap-node-bin#readme",
+  "devDependencies": {
+    "commitizen": "4.3.1",
+    "cz-conventional-changelog": "3.3.0",
+    "semantic-release": "24.2.0"
+  }
+}
