@@ -11,6 +11,11 @@
   "bin": {
     "ap-node-bin": "bin/cli.js"
   },
+  "files": [
+    "bin",
+    "util",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amanp30/ap-node-bin.git"
