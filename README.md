@@ -1,6 +1,6 @@
 # ap-node-bin
 
-node bin utility
+ap-node-bin is a simple Node.js utility that makes it easy to manage and automate your command-line interfaces (CLI) directly from the bin field of your package.json. It automatically ensures that all CLI files are correctly created with the required shebang line (#!/usr/bin/env node) and placed in the appropriate directory structure.
 
 ## Installation
 
